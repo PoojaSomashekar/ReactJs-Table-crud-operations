@@ -1,0 +1,48 @@
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+td, .delBtn, .editBtn {
+  text-align: center;
+  justify-content: center;
+}
+
+ .editBtn {
+  margin-left: 10%;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+h1 {
+  color: #4CAF50;
+}

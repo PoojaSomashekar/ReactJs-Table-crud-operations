@@ -1,0 +1,67 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+   position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  background: #4CAF50;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  background: #4CAF50;
+}
+
+.content  {
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  color: #4CAF50;
+  font-weight: bolder;
+}
+
+input {
+  margin: 5px 0 5px 0;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer button {
+  margin: 5px 10px 0 0;
+  padding: 10px;
+}
+
+button:disabled{
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+

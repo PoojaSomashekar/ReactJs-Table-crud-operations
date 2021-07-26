@@ -1,0 +1,23 @@
+.App {
+  /* text-align: center; */
+}
+
+.header {
+  text-align: center;
+  justify-content: center;
+}
+
+.deleteRowsBtn {
+  margin-left: 5%;
+  padding: 10px;
+}
+
+.searchName {
+  border: 1px solid #4CAF50;
+  margin-left: 5%;
+  border-radius: 15px;
+  
+}
+.searchName:hover {
+outline: none;
+}
