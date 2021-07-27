@@ -59,7 +59,7 @@ const App = () => {
   };
 
   return (
-    <div className={classes.App}>
+    <div>
       <h1 className={classes.header}>Table In ReactJs</h1>
       <button className={classes.deleteRowsBtn} disabled={showBtns} onClick={onDeleteRows}>Delete Rows</button>
       <input type='text' name='searchName' id='searchName' className={classes.searchName} onChange={searchNameHandler} placeholder='Search Name...' />
